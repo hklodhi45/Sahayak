@@ -10,3 +10,6 @@ The platform provides smart worker matching, transparent profiles,
 work distribution, service support, and real-time availability.
 
 Built for Smart India Hackathon 2026 — SIH26089.
+
+Team members 
+1. Harikrishna Lodhi
