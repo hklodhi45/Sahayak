@@ -1,0 +1,128 @@
+@media (width <= 448px){
+  body{
+    background: radial-gradient(
+      ellipse at 50% 35%,
+      #2b2c43 0%,
+      #1d1d2e 45%,
+      #11111c 100%
+    );
+  }
+  a {
+    -webkit-tap-highlight-color: transparent;
+  }
+  nav img{
+    height: 3.5rem;
+    margin-left: -1rem;
+  }
+  main{
+    width: 100%;
+    padding: 0 0 0 1.5rem;
+    margin-top: 3rem;
+  }
+  main h3{
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+  main h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  main h4{
+    display: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  main p{
+    font-size: 0.9rem;
+    font-weight: 200;
+    padding:0 0.5rem 0 0.2rem;
+    margin-bottom: 5rem;
+    line-height: 1.25rem;
+  }
+
+  /* CTA */
+  .CTA{
+    text-align: end;
+    width: 100%;
+    padding-right: 1.25rem;
+  }
+  .CTA h1{
+    font-size: 1.125rem;
+    margin-bottom: 0.25rem;
+  }
+  .CTA h5{
+    font-size: 0.8rem;
+  }
+
+  /* cards */
+  .cards-container{
+    top: 25rem;
+    right: 0rem;
+    overflow: hidden;
+  }
+  .card{
+    height: 12rem;
+    width: 7.5rem;
+    border-left: 1px solid rgb(255, 111, 0);
+    border-radius: 0.5rem;
+    transform-origin: 0% 100%;
+  }
+  .card:hover{
+  transform: skewX(-20deg) scale(1);
+}
+  .last-card{
+    width: 10rem;
+    border-radius:0.5rem 0.5rem 0rem 0.5rem;
+  }
+  .card img{
+    height: 12rem;
+    width: 18rem;
+    transition: transform 0.3s ease;
+  }
+  .card:active img{
+    transform: skew(20deg) scale(1.1);
+  }
+  .content{
+    width: 23.5rem;
+    background-image: linear-gradient(rgba(24, 23, 47, 0),rgba(24, 23, 47, 0.388) 15%, rgb(24, 23, 47) 80%);
+  }
+  .content div{
+    width: 11rem;
+  }
+  .content h2{
+    font-size: 0.9rem;
+    margin-bottom: 0.125rem;
+  }
+  .content p{
+    font-size: 0.5rem;
+  }
+  .content .logo, .explore-btn{
+    width: 1.25rem;
+    height: 1.25rem;
+    font-size: 0.625rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10rem;
+  }
+  .content .logo{
+    border: 1px solid white;
+    margin-bottom: 0.125rem;
+  }
+  .explore-btn{
+    margin: 0.4rem 0 0.5rem;
+  }
+  /* footer */
+  footer{
+    font-size: 0.7rem;
+    font-weight: 200;
+    text-align: center;
+    left: 0;
+    bottom: 1.5rem;
+    padding: 0 1rem;
+  }
+  footer b{
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+}

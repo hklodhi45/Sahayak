@@ -5,10 +5,10 @@
 }
 body{
   min-height: 100vh;
+  width: 100%;
   color: white;
   font-family: "Plus Jakarta Sans";
-  background:
-  radial-gradient(
+  background: radial-gradient(
     ellipse at 55% 45%,
     #25263b 0%,
     #181827 45%,
@@ -21,7 +21,7 @@ nav img{
 }
 main{
   padding: 3rem;
-  width: 50rem;
+  width: 40rem;
 }
 main h1{
   font-family: Sora;
@@ -35,12 +35,12 @@ main h4{
 }
 main p{
   font-size: 0.8rem;
+  margin-bottom: 8rem;
 }
 
+/* CTA */
 .CTA{
   width: 45rem;
-  position: absolute;
-  bottom: 9.5rem;
 }
 .CTA h1{
   font-size: 2.5vw;
@@ -56,11 +56,10 @@ main p{
   font-size: 1rem;
 }
 
-
+/* Cards */
 .cards-container{
   display: flex;
   width: max-content;
-  transform: skewX(-20deg);
   position:absolute;
   right: -5rem;
   top: 25%;
@@ -78,6 +77,7 @@ main p{
   box-shadow: -0.5rem 0 10px 0px rgb(22, 21, 37);
   transition: transform 0.5s ease;
   cursor: pointer;
+  transform: skewX(-20deg);
 }
 .last-card{
   width: 22rem;
@@ -90,13 +90,13 @@ main p{
   left: -5rem;
 }
 .card:hover{
-  transform: scale(1.05);
+  transform: skewX(-20deg) scale(1.05);
 }
 .content{
   position: absolute;
   left: -5rem;
   bottom: 0px;
-  height: 18rem;
+  height: 72%;
   width: 25rem;
   transform: skewX(20deg);
   background-image: linear-gradient(rgba(24, 23, 47, 0),rgba(24, 23, 47, 0.388) 20%, rgb(24, 23, 47) 50%);
