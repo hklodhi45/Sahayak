@@ -3,11 +3,71 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sahayak</title>
+  <title>Sahayak - Home</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Sora:wght@100..800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./Styles/home.css">
 </head>
 <body>
-  <h1>Welcome to Sahayak</h1>
+  <nav>
+    <img src="./Images/logo_sahayak.png" alt="">
+  </nav>
+  <main>
+    <h3>ONE PLATFORM &ThickSpace; ●  &ThickSpace; THREE PERSPECTIVES</h3>
+    <h1>Sahayak</h1>
+    <h4>Where services, people & communities connect.</h4>
+    <p>Empowering India's Labour Cooperatives by bridging skilled society <br> workers with local household and institutional demands.</p>
+
+    <div class="CTA">
+      <h1>What brings you here today <b>?</b></h1>
+      <h5>Choose your perspective to explore the platform.</h5>
+    </div>
+  </main>
+
+  <div class="cards-container">
+    <a href="user.html" class="card">
+      <img src="./Images/customer_sahayak_demo.jpg" alt="customer">
+      <div class="content">
+        <div>
+          <i class="fa-solid fa-user logo"></i>
+          <h2>Customer</h2>
+          <p>Find help. <br> when you need it.</p>
+          <i class="fa-solid fa-arrow-right explore-btn"></i>
+        </div>
+      </div>
+    </a>
+    <a href="worker.html" class="card">
+      <img src="./Images/worker_sahayak_demo.jpg" alt="customer">
+      <div class="content">
+        <div>
+          <i class="fa-solid fa-wrench logo"></i>
+          <h2>Worker</h2>
+          <p>Find work. <br> when you are ready.</p>
+          <i class="fa-solid fa-arrow-right explore-btn"></i>
+        </div>
+      </div>
+    </a>
+    <a href="cooperative.html" class="card last-card">
+        <img src="./Images/cooperative_sahayak_demo.jpg" alt="customer">
+        <div class="content">
+          <div>
+            <i class="fa-solid fa-users logo"></i>
+            <h2>Cooperative</h2>
+            <p>Manage your workforce. <br> build bigger impact.</p>
+            <i class="fa-solid fa-arrow-right explore-btn"></i>
+          </div>
+        </div>
+    </a>
+  </div>
+
+  <footer>
+    <p>
+      <b>INTERACTIVE PROTOTYPE</b><br>
+      This prototype highlights the core platform experience. Additional features and capabilities are planned for the complete solution.
+    </p>
+  </footer>
 
   <script src="./Scripts/home.js"></script>
 </body>
