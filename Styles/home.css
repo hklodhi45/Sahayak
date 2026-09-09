@@ -14,6 +14,7 @@ body{
     #181827 45%,
     #11111c 100%
   );
+  background-attachment: fixed;
   overflow-x: hidden;
 }
 nav img{
@@ -58,11 +59,15 @@ main p{
 
 /* Cards */
 .cards-container{
-  display: flex;
+  height: 30rem;
   width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   position:absolute;
-  right: -5rem;
-  top: 25%;
+  right: 0;
+  top: 8.5rem;
+  overflow: hidden;
 }
 .card{
   height: 25rem;
@@ -71,13 +76,14 @@ main p{
   border-left: 2px solid rgb(255, 111, 0);
   display: flex;
   flex-direction: column;
-  overflow: hidden;
   position: relative;
+  left: 6rem;
   border-radius: 1rem;
   box-shadow: -0.5rem 0 10px 0px rgb(22, 21, 37);
   transition: transform 0.5s ease;
   cursor: pointer;
   transform: skewX(-20deg);
+  overflow: hidden;
 }
 .last-card{
   width: 22rem;
@@ -135,9 +141,8 @@ main p{
 }
 
 footer{
+  margin: 5rem 0 0.5rem 3rem;
   font-size: 0.85rem;
-  position: absolute;
-  bottom: 0.5rem;
   left: 3rem;
 }
 footer b{

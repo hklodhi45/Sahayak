@@ -1,3 +1,182 @@
+@media (width <= 1440px){
+  main{
+    width: 35rem;
+  }
+  main h4{
+    font-size: 1.05rem;
+  }
+  main p{
+    font-size: 0.7rem;
+    margin-bottom: 10rem;
+  }
+  .cards-container{
+    top: 11rem;
+  }
+  .card{
+    left: 4.5rem;
+    height: 22rem;
+    width: 13.5rem;
+  }
+  .last-card{
+    width: 18rem;
+  }
+
+  .CTA h1{
+    font-size: 2.4vw;
+  }
+  .CTA h5{
+    font-size: 0.9rem;
+  }
+}
+
+@media (width <= 1200px){
+  main{
+    width: 100%;
+    padding: 3rem 0 0 3rem;
+  }
+  main p{
+    width: 45%;
+    margin-bottom: 5.5rem;
+  }
+  .CTA{
+    width: 100%;
+    text-align: right;
+  }
+  .CTA h1{
+    font-size: 2.25rem;
+    padding-right: 5.5rem;
+  }
+  .CTA h5{
+    display: none;
+  }
+  .cards-container{
+    top: 28.5rem;
+  }
+  .card{
+    height: 25rem;
+    width: 15rem;
+    left: 5rem;
+  }
+  .last-card{
+    width: 21rem;
+    border-radius: 1rem 1rem 0rem 1rem;
+  }
+
+  footer{
+    text-align: right;
+    padding: 1rem;
+    margin-top: 35rem;
+  }
+  footer b{
+    font-size: 1rem;
+  }
+}
+
+@media (width <= 932px){
+  main p{
+    width: 70%;
+    margin-bottom: 7.25rem;
+  }
+  .CTA{
+    margin-bottom: 0;
+  }
+  .CTA h1{
+    font-size: 2rem;
+    padding-right: 4rem;
+  }
+  .card{
+    height: 22rem;
+    width: 13.5rem;
+  }
+  .last-card{
+    width: 18rem;
+  }
+}
+
+@media (width <= 776px){
+   main h3{
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+  }
+  main h1{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  main p{
+    width: 90%;
+    font-size: 0.8rem;
+    font-weight: 200;
+    padding:0 0.5rem 0 0.2rem;
+    margin-bottom: 4.75rem;
+    line-height: 1.25rem;
+  }
+
+  .CTA h1{
+    font-size: 4vw;
+    padding-right: 5vw;
+  }
+
+  /* cards */
+  .cards-container{
+    align-items: flex-start;
+    padding-top: 3rem;
+    top: 25rem;
+  }
+  .card{
+    left: 7.5rem;
+    height: 45vw;
+    width: 27vw;
+  }
+  .last-card{
+    width: 18rem;
+  }
+  .card img{
+    height: 40vw;
+    width: 60vw;
+  }
+  .content{
+    height: 50%;
+    width: 23.5rem;
+    background-image: linear-gradient(rgba(24, 23, 47, 0),rgba(24, 23, 47, 0.388) 15%, rgb(24, 23, 47) 80%);
+  }
+  .content div{
+    width: 10rem;
+  }
+  .content h2{
+    font-size: 3vw;
+    margin-bottom: 0.125rem;
+  }
+  .content p{
+    font-size: 1.5vw;
+  }
+  .content .logo, .explore-btn{
+    width: 5vw;
+    height: 5vw;
+    font-size: 2.25vw;
+  }
+  .content .logo{
+    border: 1px solid white;
+    margin-bottom: 0.125rem;
+  }
+  .explore-btn{
+    margin: 0.4rem 0 0.5rem;
+  }
+
+  /* footer */
+  footer{
+    font-size: 0.7rem;
+    font-weight: 200;
+    text-align: center;
+    padding: 0 1rem;
+    margin-top: 28rem ;
+    margin-left: 1rem;
+  }
+  footer b{
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+}
+
 @media (width <= 448px){
   body{
     background: radial-gradient(
@@ -6,6 +185,8 @@
       #1d1d2e 45%,
       #11111c 100%
     );
+    min-height: 56rem;
+    position: relative;
   }
   a {
     -webkit-tap-highlight-color: transparent;
@@ -15,111 +196,71 @@
     margin-left: -1rem;
   }
   main{
-    width: 100%;
     padding: 0 0 0 1.5rem;
     margin-top: 3rem;
   }
   main h3{
     font-size: 0.75rem;
-    margin-bottom: 0.5rem;
   }
   main h1{
     font-size: 3rem;
-    margin-bottom: 1rem;
   }
   main h4{
     display: none;
-    font-size: 1.1rem;
-    font-weight: 600;
   }
   main p{
+    width: 100%;
     font-size: 0.9rem;
-    font-weight: 200;
-    padding:0 0.5rem 0 0.2rem;
     margin-bottom: 5rem;
-    line-height: 1.25rem;
   }
 
   /* CTA */
   .CTA{
-    text-align: end;
-    width: 100%;
-    padding-right: 1.25rem;
+    padding-right: 0.5rem;
   }
   .CTA h1{
-    font-size: 1.125rem;
+    font-size: 1.1rem;
     margin-bottom: 0.25rem;
+    padding-right: 0;
   }
   .CTA h5{
-    font-size: 0.8rem;
+    display: block;
+    font-size: 0.775rem;
   }
 
   /* cards */
   .cards-container{
-    top: 25rem;
-    right: 0rem;
-    overflow: hidden;
+    top: 22rem;
+    height: 18rem;
   }
   .card{
-    height: 12rem;
-    width: 7.5rem;
+    left: 3rem;
     border-left: 1px solid rgb(255, 111, 0);
-    border-radius: 0.5rem;
-    transform-origin: 0% 100%;
   }
   .card:hover{
-  transform: skewX(-20deg) scale(1);
-}
+    transform: skewX(-20deg) scale(1);
+  }
   .last-card{
     width: 10rem;
     border-radius:0.5rem 0.5rem 0rem 0.5rem;
   }
   .card img{
-    height: 12rem;
-    width: 18rem;
     transition: transform 0.3s ease;
   }
   .card:active img{
     transform: skew(20deg) scale(1.1);
   }
-  .content{
-    width: 23.5rem;
-    background-image: linear-gradient(rgba(24, 23, 47, 0),rgba(24, 23, 47, 0.388) 15%, rgb(24, 23, 47) 80%);
-  }
   .content div{
     width: 11rem;
   }
-  .content h2{
-    font-size: 0.9rem;
-    margin-bottom: 0.125rem;
-  }
-  .content p{
-    font-size: 0.5rem;
-  }
-  .content .logo, .explore-btn{
-    width: 1.25rem;
-    height: 1.25rem;
-    font-size: 0.625rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10rem;
-  }
-  .content .logo{
-    border: 1px solid white;
-    margin-bottom: 0.125rem;
-  }
-  .explore-btn{
-    margin: 0.4rem 0 0.5rem;
-  }
+
   /* footer */
+
   footer{
-    font-size: 0.7rem;
-    font-weight: 200;
-    text-align: center;
+    position: absolute;
+    bottom: 2rem;
     left: 0;
-    bottom: 1.5rem;
-    padding: 0 1rem;
+    margin: 0 ;
   }
   footer b{
     font-size: 0.9rem;
