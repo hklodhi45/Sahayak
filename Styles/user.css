@@ -107,7 +107,7 @@ main {
    #080f1e 35%,
    rgba(8,15,30,0.85) 55%,
    rgba(8,15,30,0.1) 100%
-   ),url("Images/Bg_img.jpeg") right center / contain no-repeat; 
+   ),url("../Images/Bg_img.jpeg") right center / contain no-repeat; 
    z-index: 7;
 }
 .help{
