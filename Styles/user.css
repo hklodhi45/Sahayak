@@ -9,12 +9,7 @@ body{
   color: white;
   font-family: "Plus Jakarta Sans";
   font-weight: 400;
-  background: radial-gradient(
-    ellipse at 55% 45%,
-    #25263b 0%,
-    #181827 45%,
-    #11111c 100%
-  );
+  background-color: #080f1e ;
   background-attachment: fixed;
   overflow-x: hidden;
 }
@@ -23,11 +18,14 @@ nav img{
   margin-left: 0px;
 }
 .navbar {
-  height: 64px;
+  position: fixed;
+  top: 0;
+  height: 4rem;
   width: 100%;
   display: flex;
   align-items: center;
   color: white;
+  background-image: linear-gradient(#080f1e,#080f1edc,#080f1eb1, #080f1e00);
 }
 .home {
   display: flex;
@@ -98,16 +96,18 @@ main {
   flex: 1;
 }
 .first_div {
-  height: 210px;
+  height: 20rem;
   width: 100%;
   overflow: hidden;
-  padding: 10px 50px;
+  padding: 5rem 3rem 1rem;
    background: linear-gradient(to right,
    #080f1e 0%,
    #080f1e 35%,
    rgba(8,15,30,0.85) 55%,
    rgba(8,15,30,0.1) 100%
    ),url("../Images/Bg_img.jpeg") right center / contain no-repeat; 
+   margin: 4rem 0rem 3rem;
+   box-shadow: 0px 2px 20px 0px rgba(58, 67, 87, 0.56);
    z-index: 7;
 }
 .help{
@@ -115,6 +115,7 @@ main {
 }
 .first_div h1{
   font-family: "Sora";
+  font-size: 3rem;
   font-weight: 700;
   margin-top: 10px;
 }
@@ -179,12 +180,7 @@ main {
   height: 170px;
   width: 100%;
   color: #F5F7FB;
-   background: radial-gradient(
-    ellipse at 55% 45%,
-    #25263b 0%,
-    #181827 45%,
-    #11111c 100%
-  ); 
+  
   font-family: "Plus Jakarta Sans";
   font-weight: 500;
   margin-top: 1px;
@@ -200,6 +196,7 @@ main {
   font-weight: 700;
   margin-left: auto;
   margin-right: 25px;
+  padding-top: 5px;
 }
 #arrow {
  font-size: 13px;
@@ -207,7 +204,9 @@ main {
 }
 .second-div h3 {
   font-family: "Sora";
-  padding: 0px 50px;
+  /* padding: 5px 50px; */
+  padding-left: 50px;
+  padding-top: 1px;
 }
 .second-services {
   display: flex;
@@ -264,10 +263,10 @@ main {
   color: #8BE28B;
 }
 #carpentry {
-  background-color: #1a1e25;
+  background-color: #332a58;
 }
 #carpentry i{
-  color: #2E2550;
+  color: #a9a4be;
 }
 #painting {
   background-color: #3A2340;
@@ -294,15 +293,10 @@ main {
   color: #E8EDF5;
 }
 .third-div {
-  height: 170px;
+  height: 200px;
   width: 100%;
   color: #F5F7FB;
-  background: radial-gradient(
-    ellipse at 55% 45%,
-    #25263b 0%,
-    #181827 45%,
-    #11111c 100%
-  );
+  background-color:#080f1e 0%;
   margin-top: 1px;
 }
 .third-div a {
@@ -312,10 +306,12 @@ main {
   font-weight: 700;
   margin-left: auto;
   margin-right: 30px;
+  padding-top: 15px;
 }
 .third-div h3 {
   font-family: "Sora";
-  padding: 0px 50px;
+  padding-left: 50px;
+  padding-top: 15px;
 }
 .third-div i {
   font-size: 13px;
@@ -325,12 +321,12 @@ main {
   gap: 15px;
   margin-left: 40px;
   margin-right: 28px;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 .gramin-div {
   display: flex;
   align-items: center;
-  height: 90px;
+  height: 120px;
   width: 200px;
   background-color: #1f2a41;
   flex: 1;
@@ -392,6 +388,7 @@ main {
   color: #B8C9E8;
   margin-top: 5px;
   margin-left: 40px;
+  margin-bottom: 15px;
   border-radius: 12px;
 }
 .last-boxes {
@@ -405,7 +402,7 @@ main {
 
 /* footer */
 footer {
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
   border-top: 1px solid grey ;
