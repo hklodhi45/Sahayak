@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sahayak-User</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Styles/user.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="Images/logo_sahayak.png" alt="" />
+      <div class="home">
+        <a href="home.html"><b>Home</b></a>
+        <a href="" Services.html><b>Services</b></a>
+        <a href="Booking.html"><b>My Bookings</b></a>
+      </div>
+      <div class="right">
+        <div class="location">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Kanpur,UP</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+
+        <div class="notification">
+          <i class="fa-solid fa-bell"></i>
+          <span class="dot"></span>
+        </div>
+
+        <div class="profile">
+          <i class="fa-solid fa-circle-user"></i>
+          <i class="fa-solid fa-chevron-down" id="down"></i>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="first_div">
+        <h1>What can we <span class="help">help you</span> with today?</h1>
+        <br />
+        <p>Find trusted professionals for your home and community needs.</p>
+        <div class="search-container">
+          <div class="service-search">
+            <span class="search-icon"
+              ><i class="fa-solid fa-magnifying-glass"></i
+            ></span>
+            <input
+              type="text"
+              placeholder="Search for a service...(e.g. Plumber,Electrician,Cleaner...)"
+            />
+          </div>
+          <!-- <span class="colon">|</span> -->
+          <!-- <div class="location">
+            <span class="location-icon"
+              ><i class="fa-solid fa-location-dot"></i>
+            </span>
+            <span id="locationText">Kanpur,UP</span>
+            <span class="arrow"><i class="fa-solid fa-angle-down"></i></span>
+          </div> -->
+          <button><i class="fa-solid fa-arrow-right" id="se-arrow"></i></button>
+        </div>
+      </div>
+
+      <div class="second-div">
+        <div class="upper-portion">
+          <h3>Explore Services</h3>
+          <a href="#"
+            >View all services&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </div>
+
+        <div class="second-services">
+          <div class="service-cards">
+            <span id="plumbing">
+              <i class="fa-solid fa-wrench"></i>
+            </span>
+            Plumbing
+          </div>
+          <div class="service-cards">
+            <span id="electrical">
+              <i class="fa-solid fa-bolt"></i>
+            </span>
+            Electrical
+          </div>
+          <div class="service-cards">
+            <span id="cleaning">
+              <i class="fa-solid fa-broom"></i>
+            </span>
+            Cleaning
+          </div>
+          <div class="service-cards">
+            <span id="carpentry">
+              <i class="fa-solid fa-hammer"></i>
+            </span>
+            Carpentry
+          </div>
+          <div class="service-cards">
+            <span id="painting">
+              <i class="fa-solid fa-paintbrush"></i>
+            </span>
+            Painting
+          </div>
+          <div class="service-cards">
+            <span id="driver">
+              <i class="fa-solid fa-car"></i>
+            </span>
+            Driver
+          </div>
+          <div class="service-cards">
+            <span id="gardening">
+              <i class="fa-solid fa-leaf"></i>
+            </span>
+            Gardening
+          </div>
+          <div class="service-cards">
+            <span id="repair">
+              <i class="fa-solid fa-gear"></i>
+            </span>
+            Repairs
+          </div>
+        </div>
+      </div>
+
+      <div class="third-div">
+        <div class="upper-portion">
+          <h3>Popular cooperatives near you</h3>
+          <a href="#"
+            >View all &nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="gramin">
+          <div class="gramin-div">
+            <img src="Images/Sahakar-seva.jpeg" height="50px" width="50px" />
+            <div class="cooperative-info">
+              <h4>Sahakar Seva Cooperative</h4>
+              <p>Home Services Cooperative</p>
+              <div class="rating">
+                <p><i class="fa-solid fa-star"></i>&nbsp;<b>4.8</b></p>
+                <span>|</span>
+                <p>120+&nbsp;<b>workers</b></p>
+              </div>
+            </div>
+            <button class="cooperative-button">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          <div class="gramin-div">
+            <img src="Images/Gramin-uthaan.jpeg" height="50px" width="50px" />
+            <div class="cooperative-info">
+              <h4>Gramin Uthaan Cooperative</h4>
+              <p>Multi-Services Cooperative</p>
+              <div class="rating">
+                <p><i class="fa-solid fa-star"></i>&nbsp;<b>4.7</b></p>
+                <span>|</span>
+                <p>85+&nbsp;<b>workers</b></p>
+              </div>
+            </div>
+            <button class="cooperative-button">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          <div class="gramin-div">
+            <img src="Images/Nayi-disha.jpeg" height="50px" width="50px" />
+            <div class="cooperative-info">
+              <h4>Nayi Disha Cooperative</h4>
+              <p>Community Services Cooperative</p>
+              <div class="rating">
+                <p><i class="fa-solid fa-star"></i>&nbsp;<b>4.9</b></p>
+                <span>|</span>
+                <p>200+&nbsp;<b>workers</b></p>
+              </div>
+            </div>
+            <button class="cooperative-button">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="fourth-div">
+        <div class="last-boxes">
+          <img src="Images/verify.svg" />Verified Professionals
+        </div>
+        <div class="last-boxes">
+          <img src="Images/rupees.svg" /> Transparent pricing
+        </div>
+        <div class="last-boxes">
+          <img src="Images/community.svg" alt="" />Cooperative Support
+        </div>
+        <div class="last-boxes">
+          <img src="Images/secure.svg" alt="" />Secure bookings
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <img src="Images/logo_sahayak.png" alt="" />
+        <div class="link">
+          <a href="#">About Us</a>
+          <a href="#">Help</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms</a>
+        </div>
+        <div class="footer_img">
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-square-x-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
