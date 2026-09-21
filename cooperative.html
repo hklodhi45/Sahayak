@@ -1,40 +1,398 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sahayak - Cooperative</title>
-    <link rel="stylesheet" href="./Styles/cooperative.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sahayak - Cooperative</title>
+  <link rel="stylesheet" href="./Styles/cooperative.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Sora:wght@100..800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
- 
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Sora:wght@100..800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body>
-<nav>
+  <nav>
     <img src="./Images/logo_sahayak.png" alt="">
     <ul>
-        <a>Dashboard</a>
-        <a>Service Request</a>
-        <a>Workers</a>
-        <a>Earning</a>
+      <a>Dashboard</a>
+      <a>Service Request</a>
+      <a>Workers</a>
+      <a>Earning</a>
     </ul>
     <div class="links">
-
-        <i class="fa-solid fa-location-dot locate"></i>
-        <!-- <span>Delhi</span> -->
-        <i class="fa-solid fa-bell bell "></i>
-        <i class="fa-solid fa-user profile"></i>
+      <i class="fa-solid fa-location-dot icon"></i>
+      <i class="fa-solid fa-bell icon "></i>
+      <i class="fa-solid fa-user icon"></i>
     </div>
+    <i class="fa-solid fa-bars menu " id="menu"></i>
   </nav>
-  <hr>
+
+<header class="bg">
   <div class="mid">
- <h6>COOPERATIVE</h6>
-  <h2>Good morning, Sahakar Seva <img src="./Images/clapping.png"</h2>
-  <h5>Manage your workforce and grow your community.</h5>
+    <h6>COOPERATIVE</h6>
+    <h2>Namaste, Sahakar Seva 
+      <img src="./Images/greeting.png" alt="" style="height: 4rem; width: 4rem;">
+    </h2>
+    <h5>Manage your workforce and grow your community.</h5>
   </div>
-  
+
+  <div class="mid1">
+    <div class="card" >
+         <i class="fa-solid fa-house icon"></i>
+      <div>
+        <h4>Sahakar Seva Cooperative </h4>
+        <h5 class="verify">Verified Cooperative </h5>
+      </div>
+   </div>
+
+    <div class="card">
+          <i class="fa-solid fa-bars icon"></i>
+        <div>
+          <h4>Service Request</h4>
+          <h3>32</h3>
+        </div>
+         <i class="fa-solid fa-arrow-right arrow"></i>
+    </div>
+
+      <div class="card">
+          <i class="fa-solid fa-briefcase icon"></i>
+        <div>
+          <h4>Active Jobs</h4>
+          <h3>18</h3>
+        </div>
+         <i class="fa-solid fa-arrow-right arrow"></i>
+      </div>
+
+    <div class="card">
+         <i class="fa-solid fa-user-group icon"></i>
+        <div>
+          <h4>Available workers</h4>
+          <h3>45</h3>
+        </div>
+         <i class="fa-solid fa-arrow-right arrow"></i>
+      </div>
+
+    <div class="card">
+        <i class="fa-solid fa-indian-rupee-sign icon"></i>
+      <div>
+        <h4>This Week</h4>
+        <h3>₹8050</h3>
+      </div>
+         <i class="fa-solid fa-arrow-right arrow"></i>
+     </div>
+  </div>
+</header>
+
+  <h2 class="tag">Incoming service requests</h2>
+  <div class="cards">
+    <div class="card request-card">
+      <div class="content">
+          <i class="fa-solid fa-wrench icon"></i>
+        <div>
+          <h3>Plumbing Repair</h3>
+          <h5>Customer: Ankit Sharma</h3>
+            <div>
+              <i class="fa-solid fa-location-dot"></i>
+              <span>2.4km</span>
+              <i class="fa-solid fa-calendar "></i>
+              <span>Today- 4:30 PM</span>
+            </div>
+            <div>
+              <i class="fa-solid fa-indian-rupee-sign "></i>
+              <span>250-300</span>
+            </div>
+        </div>
+     </div>
+        <div class="button">
+          <button class="primary-button">View Details</button>
+          <button class="secondary-button">Assign worker <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+   </div>
+
+    <div class="card request-card">
+      <div class="content">
+        <i class="fa-solid fa-bolt-lightning icon"></i>
+        <div>
+          <h3>Electrical Repair</h3>
+          <h5>Customer: Priya singh</h5>
+          <div>
+            <i class="fa-solid fa-location-dot"></i>
+            <span>3.1 Km</span>
+            <i class="fa-solid fa-calendar "></i>
+            <span> Today- 6:00 PM</span>
+          </div>
+        <div>
+            <i class="fa-solid fa-indian-rupee-sign "></i>
+            <span>250-300</span>
+          </div>
+        </div>
+      </div>
+        <div class="button">
+          <button class="primary-button">View Details</button>
+          <button class="secondary-button">Assign Worker <i class="fa-solid fa-arrow-right"></i></button></button>
+        </div>
+    </div>
+
+    <div class="card request-card">
+      <div class="content">
+         <i class="fa-solid fa-broom icon"></i>
+        <div>
+          <h3>Home Cleaning</h3>
+          <h5>Customer: Neha Verma</h5>
+          <div>
+            <i class="fa-solid fa-location-dot"></i>
+            <span>1.8 Km</span>
+            <i class="fa-solid fa-calendar"></i>
+            <span> Today- 5:00 PM</span>
+          </div>
+          <div>
+            <i class="fa-solid fa-indian-rupee-sign "></i>
+            <span>300-400</span>
+          </div>
+        </div>
+      </div>
+        <div class="button">
+          <button class="primary-button">View Details</button>
+          <button class="secondary-button">Assign Worker <i class="fa-solid fa-arrow-right"></i></button></button>
+        </div>
+    </div>
+
+    <div class="card request-card">
+      <div class="content">
+         <i class="fa-solid fa-hammer icon"></i>
+        <div>
+            <h3>Carpentary work</h3>
+            <h5>Customer: Rahul Mehta</h5>
+          <div>
+            <i class="fa-solid fa-location-dot"></i>
+            <span>4.2 Km</span>
+            <i class="fa-solid fa-calendar"></i>
+            <span> Tomarrow- 10:00 PM</span>
+          </div>
+          <div>
+            <i class="fa-solid fa-indian-rupee-sign "></i>
+            <span>600-800</span>
+          </div>
+        </div>
+      </div>
+          <div class="button">
+            <button class="primary-button">View Details</button>
+            <button class="secondary-button">Assign Worker <i class="fa-solid fa-arrow-right"></i></button></button>
+          </div>
+    </div>
+  </div>
+
+
+  <div class="mid-heading">
+    <h2>Workforce Overview</h2>
+    <h2>Active jobs</h2>
+  </div>
+
+  <div class="workforce">
+    <div class="card">
+      <div class="overview">
+        <i class="fa-solid fa-user-group icon"></i>
+        <span>47</span>
+        <span>Workers</span>
+      </div>
+
+      <div class="overview">
+        <i class="fa-regular fa-circle-dot icon"></i>
+        <span>31</span>
+        <span>Available</span>
+      </div>
+      <div class="overview">
+        <i class="fa-regular fa-circle-dot icon"></i>
+        <span>12</span>
+        <span>Working</span>
+      </div>
+      <div class="overview">
+        <i class="fa-solid fa-ellipsis icon"></i>
+        <span>4</span>
+        <span>others</span>
+      </div>
+    </div>
+
+    <div class="card request-card">
+      <div class="top">
+        <i class="fa-solid fa-gear icon"></i>
+        <h3>Top skills</h3>
+      </div>
+    <div>
+        <div>
+          <button class="btn">Plumbing</button>
+          <button class="btn">Electrical</button>
+          <button class="btn">Cleaning</button>
+        </div>
+        <div>
+          <button class="btn">Carpentary</button>
+          <button class="btn">Painting</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card request-card">
+      <div class="content">
+        <i class="fa-solid fa-wrench icon"></i>
+        <div>
+          <h3>Plumbing Repair</h3>
+          <h5>Praveen Kumar</h5>
+        </div>
+       </div>
+        <div class="button">
+          <button class="secondary-button">On the way</button>
+        </div>
+    </div>
+
+    <div class="card request-card">
+      <div class="content">
+          <i class="fa-solid fa-broom icon"></i>
+        <div>
+          <h3>Home Cleaning</h3>
+          <h5>Priya Sharma</h5>
+        </div>
+      </div>
+        <div class="button">
+          <button class="primary-button">On the way</button>
+        </div>
+    </div>
+  </div>
+
+  <div class="mid-heading">
+    <h2>Community Impact</h2>
+    <h2>Custom Offers</h2>
+  </div>
+
+  <div class="community">
+    <div class="data">
+      <div>
+        <i class="fa-regular fa-circle-check icon"></i>
+      </div>
+      <div>
+        <p>126</p>
+        <h6>Jobs completed</h6>
+      </div>
+      <div >
+        <i class="fa-regular fa-user icon"></i>
+      </div>
+      <div>
+        <p>47</p>
+        <h6>Workers Supported</h6>
+      </div>
+      <div >
+        <i class="fa-solid fa-indian-rupee-sign icon"></i>
+      </div>
+      <div >
+        <p>85.5k</p>
+        <h6>Worker Earning</h6>
+      </div>
+       <div >
+        <i class="fa-regular fa-star icon"></i>
+       </div>
+      <div>
+        <p>4.8</p>
+        <h6>Cooperate Rating</h6>
+      </div>
+    </div>
+
+    <div class="offers">
+      <div>
+        <i class="fa-solid fa-gift icon"></i>
+        <div >
+          <p><span>40% OFF </span> &nbsp;on your second service with us </p>
+          <p>Bring customers back with a custom offer </p>
+        </div>
+      </div>
+      <button>On the way</button>
+    </div>
+  </div>
+
+  <h2 class="tag">Professional Profile</h2>
+
+  <div class="profile">
+    <div>
+      <i class="fa-regular fa-circle-user icon"></i>
+      <div>
+        <h5>Sahakar Seva Cooperative</h5>
+        <p class="verify">Verified Cooperative</p>
+      </div>
+    </div>
+    <div>
+      <i class="fa-solid fa-user-group icon"></i>
+      <div >
+        <h5>47</h5>
+        <p>Workers</p>
+      </div>
+    </div>
+
+    <div>
+       <i class="fa-solid fa-briefcase icon"></i>
+      <div >
+        <h5>126</h5>
+        <p>Corporate jobs</p>
+      </div>
+    </div>
+
+    <div>
+      <i class="fa-regular fa-star icon"></i>
+      <div >
+        <h5>4.8</h5>
+        <p>Rating</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="profile">
+    <div>
+       <i class="fa-regular fa-square-check icon"></i>
+      <div>
+        <h3>Verified Workforce</h3>
+      </div>
+    </div>
+
+    <div>
+      <i class="fa-regular fa-thumbs-up icon"></i>
+      <div>
+        <h3>Fair opportunities</h3>
+      </div>
+    </div>
+
+    <div>
+      <i class="fa-solid fa-handshake icon"></i>
+      <div>
+        <h3>Cooperative support</h3>
+      </div>
+    </div>
+
+    <div>
+      <i class="fa-solid fa-user-lock icon"></i>
+      <div>
+        <h3>Secure platform</h3>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-logo">
+      <img src="./Images/logo_sahayak.png" alt="">
+    </div>
+    <div class="footer-content">
+      <a>About </a>
+      <a>Help </a>
+      <a>Privacy Policy </a>
+      <a>Terms </a>
+    </div>
+    <div class="social-links">
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-linkedin"></i>
+      <i class="fa-brands fa-x-twitter"></i>
+    </div>
+  </footer>
 </body>
-</html>
