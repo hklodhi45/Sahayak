@@ -129,7 +129,7 @@ main {
   align-items: center;
   background-color: #18243B;
   text-decoration-color: #AEB9CF;
-  height: 40px;
+  height:45px;
   width: 700px;
   border-radius: 30px;
   border: 1px solid #53617A;
@@ -137,7 +137,7 @@ main {
 }
 .search-container input {
   height: 40px;
-  width: 400px;
+  width: 500px;
   background-color:#18243B;
   color: #F5F7FC;
   font-size: 15px;
@@ -150,6 +150,7 @@ main {
   border-left: none;
   border-right: none;
   outline: none;
+  border: none;
 }
 .search-icon i {
   padding: 18px;
