@@ -12,20 +12,20 @@ export const serviceCategories = [
     icon: 'fa-solid fa-hammer'
   },
   {
-    name: 'Painting',
-    icon: 'fa-solid fa-paintbrush'
-  },
-  {
     name: 'Cleaning',
     icon: 'fa-solid fa-broom'
   },
   {
-    name: 'Gardening',
-    icon: 'fa-solid fa-leaf'
+    name: 'Painting',
+    icon: 'fa-solid fa-paintbrush'
   },
   {
     name: 'Driving',
     icon: 'fa-solid fa-car'
+  },
+  {
+    name: 'Gardening',
+    icon: 'fa-solid fa-leaf'
   },
   {
     name: 'Caregiving',

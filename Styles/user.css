@@ -220,14 +220,18 @@ main {
   background-color: rgb(250, 132, 42);
 }
 .second-div {
-  height: 170px;
+  height: 12rem;
   width: 100%;
   color: #F5F7FB;
-  
   font-family: "Plus Jakarta Sans";
   font-weight: 500;
   margin-top: 1px;
+  overflow: hidden;
+  transition: height 1s ease;
 } 
+.inc-sec-div-height{
+  height: 22rem;
+}
 .upper-portion {
   display: flex;
   width: 100%;
@@ -240,37 +244,39 @@ main {
   margin-left: auto;
   margin-right: 25px;
   padding-top: 5px;
+  cursor: pointer;
 }
 #arrow {
- font-size: 13px;
+  font-size: 13px;
   color: rgb(250, 132, 42);
 }
 .second-div h3 {
   font-family: "Sora";
-  /* padding: 5px 50px; */
   padding-left: 50px;
   padding-top: 1px;
 }
 .second-services {
-  display: flex;
-  gap: 16px;
-  width: 96%;
+  display: grid;
+  grid-template-columns: repeat(8,12%);
+  grid-row-gap: 2rem;
+  width: 100%;
   margin-top: 20px;
   margin-left: 40px;
 }
 .service-cards {
-  height: 120px;
-  width: 100px;
+  height: 130px;
+  width: 120px;
+  text-align: center;
+  color: white !important;
   background-color: #1f2a41;
-  color: white;
-  border: 1px solid #293750;
-  border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  padding: 1rem;
+  border: 1px solid #526e9e77;
+  border-radius: 10px;
   cursor: pointer;
-  flex: 1;
   transition: 0.3s;
 }
 .service-cards:hover {
@@ -278,69 +284,91 @@ main {
   transform: translateY(-4px);
   border-color: black;
 }
-.service-cards span {
+.service-cards i {
   height: 50px;
   width: 50px;
   align-items: center;
   display: flex;
   justify-content: center;
-  background-color: red;
   border-radius: 10px;
+  margin-top: 1rem;
+}
+.service-cards h4{
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-top: 0.4rem;
 }
 #plumbing {
+  color: #FF8A3D;
   background-color: #3A2A2A;
 }
-#plumbing i{
-  color: #FF8A3D;
-}
 #electrical {
+  color: #4DA3FF;
   background-color: #173A70;
 }
-#electrical i{
-  color: #4DA3FF;
-}
 #cleaning {
+  color: #8BE28B;
   background-color: #1F4036;
 }
-#cleaning i{
-  color: #8BE28B;
-}
 #carpentry {
+  color: #a9a4be;
   background-color: #332a58;
 }
-#carpentry i{
-  color: #a9a4be;
-}
 #painting {
-  background-color: #3A2340;
+  color: #FFB347;
+  background-color: #4A3324;
 }
-#painting i{
-  color: #F58BC7;
-}
-#driver {
-  background-color: #163A4A;
-}
-#driver i{
-  color: #42D8F5;
+#driving {
+  color: #7ED9FF;
+  background-color: #123B52;
 }
 #gardening {
-  background-color: #1F4033;
+  color: #7EE3A1;
+  background-color: #1E472F;
 }
-#gardening i{
-  color: #7ED957;
+#caregiving {
+  color: #FF9CC5;
+  background-color: #4A273E;
 }
-#repair {
-  background-color: #293241;
+#laundry {
+  color: #F6D77A;
+  background-color: #4E4729;
 }
-#repair i{
-  color: #E8EDF5;
+#ac-and-cooling {
+  color: #8CC4FF;
+  background-color: #1C355E;
 }
+#appliance-repair {
+  color: #FFB07C;
+  background-color: #4A2E2A;
+}
+#mechanic {
+  color: #F7B0BF;
+  background-color: #472C34;
+}
+#masonry {
+  color: #D9B98A;
+  background-color: #453C2F;
+}
+#home-installation {
+  color: #A5D8FF;
+  background-color: #23405C;
+}
+#moving-and-shifting {
+  color: #B7C4FF;
+  background-color: #2F2F54;
+}
+#general-handyman {
+  color: #DDEB8A;
+  background-color: #3A3D2D;
+}
+
 .third-div {
   height: 200px;
   width: 100%;
   color: #F5F7FB;
   background-color:#080f1e 0%;
-  margin-top: 1px;
+  margin-top: 1.5rem;
 }
 .third-div a {
   color: rgb(250, 132, 42); 
