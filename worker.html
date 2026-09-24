@@ -3,11 +3,650 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Sahayak - Worker Dashboard</title>
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <!-- CSS -->
     <link rel="stylesheet" href="./Styles/worker.css">
 </head>
+
 <body>
-    
+
+<div class="dashboard">
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            <div class="logo-symbol">
+                <span class="dot orange"></span>
+                <span class="dot blue"></span>
+                <span class="dot small"></span>
+            </div>
+
+            <span>SAHAYAK</span>
+        </div>
+
+        <nav class="nav-links">
+            <a href="#" class="active">Home</a>
+            <a href="#">Job Requests</a>
+            <a href="#">My Jobs</a>
+            <a href="#">Earnings</a>
+        </nav>
+
+        <div class="nav-right">
+
+            <div class="location">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Bhopal, MP</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+
+            <div class="notification">
+                <i class="fa-regular fa-bell"></i>
+                <span class="notification-dot"></span>
+            </div>
+
+            <div class="profile-icon">
+                <i class="fa-solid fa-user"></i>
+            </div>
+
+            <i class="fa-solid fa-chevron-down profile-arrow"></i>
+
+        </div>
+
+        <button class="mobile-menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+    </header>
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main class="main-container">
+
+        <!-- HERO -->
+
+        <section class="hero">
+
+            <div class="hero-left">
+
+                <h1>
+                    Good morning, Rahul
+                    <span>👋</span>
+                </h1>
+
+                <p>Ready to find your next opportunity?</p>
+
+                <div class="working-label">
+                    Currently working as
+                </div>
+
+                <div class="worker-types">
+
+                    <button class="worker-type active">
+                        <i class="fa-solid fa-bolt"></i>
+
+                        <span>Independent Worker</span>
+
+                        <span class="radio active-radio"></span>
+                    </button>
+
+                    <button class="worker-type">
+                        <i class="fa-solid fa-building"></i>
+
+                        <span>Cooperative Worker</span>
+                    </button>
+
+                </div>
+
+                <div class="availability">
+
+                    <span class="status-dot"></span>
+
+                    <span>Available for work</span>
+
+                    <div class="toggle">
+                        <div class="toggle-circle"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-slogan">
+                <span>Skilled Hands</span>
+                <span>Build Stronger</span>
+                <span>Communities</span>
+
+                <div class="slogan-line"></div>
+            </div>
+
+        </section>
+
+
+        <!-- ================= STATISTICS ================= -->
+
+        <section class="stats">
+
+            <div class="stat-card">
+
+                <div class="stat-icon">
+                    <i class="fa-regular fa-file-lines"></i>
+                </div>
+
+                <div class="stat-info">
+                    <p>New Requests</p>
+                    <h2>04</h2>
+                </div>
+
+                <i class="fa-solid fa-arrow-right stat-arrow"></i>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <div class="stat-icon">
+                    <i class="fa-solid fa-briefcase"></i>
+                </div>
+
+                <div class="stat-info">
+                    <p>Active Jobs</p>
+                    <h2>02</h2>
+                </div>
+
+                <i class="fa-solid fa-arrow-right stat-arrow"></i>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <div class="stat-icon">
+                    <i class="fa-solid fa-wallet"></i>
+                </div>
+
+                <div class="stat-info">
+                    <p>Today's Earnings</p>
+                    <h2>₹1,250</h2>
+                </div>
+
+                <i class="fa-solid fa-arrow-right stat-arrow"></i>
+
+            </div>
+
+
+            <div class="rating">
+
+                <i class="fa-solid fa-star"></i>
+
+                <div>
+                    <strong>4.8</strong>
+                    <span>Worker Rating</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CURRENT JOB ================= -->
+
+        <section class="current-job-section">
+
+            <div class="section-heading">
+                <h2>Your Current Job</h2>
+
+                <a href="#">
+                    View All
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+
+            <div class="current-job">
+
+                <div class="job-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&w=400&q=80"
+                        alt="Plumbing repair"
+                    >
+                </div>
+
+
+                <div class="current-job-info">
+
+                    <h3>
+                        <i class="fa-solid fa-wrench"></i>
+                        Plumbing Repair
+                    </h3>
+
+                    <div class="job-detail">
+                        <i class="fa-solid fa-user"></i>
+                        Customer: Amit Sharma
+                    </div>
+
+                    <div class="job-detail">
+                        <i class="fa-solid fa-location-dot"></i>
+                        2.4 km away
+                    </div>
+
+                    <div class="job-detail">
+                        <i class="fa-regular fa-clock"></i>
+                        Today · 4:30 PM
+                    </div>
+
+                    <div class="job-status">
+                        <span></span>
+                        On the way
+                    </div>
+
+                </div>
+
+
+                <!-- Progress -->
+
+                <div class="progress-area">
+
+                    <div class="progress-line">
+
+                        <div class="progress-step completed">
+                            <div class="step-circle">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+
+                            <span>Accepted</span>
+                        </div>
+
+
+                        <div class="progress-step active-step">
+
+                            <div class="step-circle">
+                                <i class="fa-solid fa-car"></i>
+                            </div>
+
+                            <span>On the way</span>
+
+                        </div>
+
+
+                        <div class="progress-step">
+
+                            <div class="step-circle"></div>
+
+                            <span>Arrived</span>
+
+                        </div>
+
+
+                        <div class="progress-step">
+
+                            <div class="step-circle"></div>
+
+                            <span>Working</span>
+
+                        </div>
+
+
+                        <div class="progress-step">
+
+                            <div class="step-circle"></div>
+
+                            <span>Completed</span>
+
+                        </div>
+
+                    </div>
+
+
+                    <button class="update-btn">
+                        <i class="fa-solid fa-arrows-rotate"></i>
+                        Update Status
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= JOB OPPORTUNITIES ================= -->
+
+        <section class="opportunities">
+
+            <div class="section-heading">
+
+                <h2>Work opportunities for you</h2>
+
+                <a href="#">
+                    View all
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+
+            <!-- JOB 1 -->
+
+            <div class="opportunity-card">
+
+                <div class="opportunity-icon">
+                    <i class="fa-solid fa-wrench"></i>
+                </div>
+
+                <div class="opportunity-info">
+
+                    <h3>Electrical Repair</h3>
+
+                    <div class="opportunity-details">
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            3.1 km away
+                        </span>
+
+                        <span>
+                            <i class="fa-regular fa-clock"></i>
+                            Today · 6:00 PM
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-indian-rupee-sign"></i>
+                            ₹400 - ₹550
+                        </span>
+
+                    </div>
+
+                    <p>Customer: Priya Singh</p>
+
+                </div>
+
+
+                <div class="job-actions">
+
+                    <button class="details-btn">
+                        View Details
+                    </button>
+
+                    <button class="accept-btn">
+                        Accept Job
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- JOB 2 -->
+
+            <div class="opportunity-card">
+
+                <div class="opportunity-icon">
+                    <i class="fa-solid fa-broom"></i>
+                </div>
+
+                <div class="opportunity-info">
+
+                    <h3>Home Cleaning</h3>
+
+                    <div class="opportunity-details">
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            4.5 km away
+                        </span>
+
+                        <span>
+                            <i class="fa-regular fa-clock"></i>
+                            Today · 5:00 PM
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-indian-rupee-sign"></i>
+                            ₹300 - ₹400
+                        </span>
+
+                    </div>
+
+                    <p>Customer: Rohan Mehta</p>
+
+                </div>
+
+
+                <div class="job-actions">
+
+                    <button class="details-btn">
+                        View Details
+                    </button>
+
+                    <button class="accept-btn">
+                        Accept Job
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- JOB 3 -->
+
+            <div class="opportunity-card">
+
+                <div class="opportunity-icon">
+                    <i class="fa-solid fa-paint-roller"></i>
+                </div>
+
+                <div class="opportunity-info">
+
+                    <h3>Painting</h3>
+
+                    <div class="opportunity-details">
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            5.2 km away
+                        </span>
+
+                        <span>
+                            <i class="fa-regular fa-clock"></i>
+                            Today · 3:30 PM
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-indian-rupee-sign"></i>
+                            ₹500 - ₹700
+                        </span>
+
+                    </div>
+
+                    <p>Customer: Neha Verma</p>
+
+                </div>
+
+
+                <div class="job-actions">
+
+                    <button class="details-btn">
+                        View Details
+                    </button>
+
+                    <button class="accept-btn">
+                        Accept Job
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROFILE ================= -->
+
+        <section class="professional-profile">
+
+            <div class="profile-photo">
+                <i class="fa-solid fa-user"></i>
+            </div>
+
+
+            <div class="professional-info">
+
+                <h3>Your Professional Profile</h3>
+
+                <strong>Rahul Kumar</strong>
+
+                <p>Plumber · Electrician</p>
+
+                <span class="verified">
+                    <i class="fa-solid fa-circle-check"></i>
+                    Verified Professional
+                </span>
+
+            </div>
+
+
+            <div class="profile-stat">
+
+                <i class="fa-solid fa-star"></i>
+
+                <div>
+                    <strong>4.8</strong>
+                    <span>Rating</span>
+                </div>
+
+            </div>
+
+
+            <div class="profile-stat">
+
+                <i class="fa-solid fa-briefcase"></i>
+
+                <div>
+                    <strong>126</strong>
+                    <span>Completed Jobs</span>
+                </div>
+
+            </div>
+
+
+            <div class="profile-stat">
+
+                <i class="fa-solid fa-user-group"></i>
+
+                <div>
+                    <strong>2</strong>
+                    <span>Skills</span>
+                </div>
+
+            </div>
+
+
+            <div class="profile-stat">
+
+                <i class="fa-regular fa-file-lines"></i>
+
+                <div>
+                    <strong>3</strong>
+                    <span>Certifications</span>
+                </div>
+
+            </div>
+
+
+            <button class="view-profile">
+                View Profile
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </section>
+
+
+        <!-- ================= FEATURES ================= -->
+
+        <section class="features">
+
+            <div class="feature">
+                <i class="fa-solid fa-shield-halved"></i>
+                <span>Verified profile</span>
+            </div>
+
+            <div class="feature">
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <span>Fair earnings</span>
+            </div>
+
+            <div class="feature">
+                <i class="fa-solid fa-users"></i>
+                <span>Cooperative support</span>
+            </div>
+
+            <div class="feature">
+                <i class="fa-solid fa-lock"></i>
+                <span>Secure platform</span>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-logo">
+            <div class="logo-symbol">
+                <span class="dot orange"></span>
+                <span class="dot blue"></span>
+                <span class="dot small"></span>
+            </div>
+
+            <span>SAHAYAK</span>
+        </div>
+
+
+        <div class="footer-links">
+
+            <a href="#">About Us</a>
+            <a href="#">Help</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms</a>
+
+        </div>
+
+
+        <div class="social-links">
+
+            <a href="#">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+        </div>
+
+    </footer>
+
+</div>
+
 </body>
-<script src="./Scripts/worker.js"></script>
 </html>
