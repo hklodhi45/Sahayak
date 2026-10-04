@@ -177,6 +177,18 @@
   }
 }
 
+@media (600px <= width <= 776px){
+  .card img{
+    height: 30vw;
+    width: 45vw;
+  }
+  .content{
+    height: 55%;
+    width: 23.5rem;
+    background-image: linear-gradient(rgba(24, 23, 47, 0),rgb(24, 23, 47) 25%, rgb(24, 23, 47) 80%);
+  }
+}
+
 @media (width <= 448px){
   body{
     background: radial-gradient(

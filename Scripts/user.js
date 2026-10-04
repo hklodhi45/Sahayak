@@ -47,7 +47,7 @@ search.addEventListener("input", async () => {
 
   dropdown.innerHTML = '';
 
-  for(let i=0; i<7; i++){
+  for(let i=0; i<6; i++){
     const {name, ctg} = suggestions[i];
     const item = document.createElement("a");
     item.setAttribute('href',`./booking.html?service=${ctg}`)

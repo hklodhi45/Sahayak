@@ -1,0 +1,340 @@
+@media (width <= 1200px){
+  .first_div {
+    font-size: 0.9rem;
+  }
+  .first_div h1{
+    font-size: 4vw;
+  }
+  .first_div .bg-img{
+    width: 60%;
+  }
+  .second-services {
+    grid-template-columns: repeat(7,13.5%);
+  }
+  .inc-sec-div-height{
+    height: 32rem;
+  }
+  .service-cards {
+    height: 130px;
+    width: 100px;
+  }
+
+  .gramin-div{
+    height: 100px;
+  }
+  .gramin-div img{
+    border-radius: 0.5rem;
+  }
+  .cooperative-info h4{
+    font-size: 0.8rem;
+  }
+  .cooperative-info p{
+    font-size: 0.7rem;
+  }
+}
+
+@media (width <= 996px){
+  .navbar img{
+    height: 3.5rem;
+  }
+  .navbar a{
+    font-size: 0.9rem;
+  }
+ .first_div {
+    font-size: 0.8rem;
+  }
+  .first_div .bg-gradient{
+    width: 85%;
+  }
+  .first_div .bg-img{
+    width: 38rem;
+  }
+
+  .second-services {
+    grid-template-columns: repeat(6,16%);
+  }
+
+  .gramin-div:last-child{
+    display: none;
+  }
+  .gramin-div{
+    height: 7rem;
+    width: 46%;
+  }
+  .gramin-div img{
+    height: 6vw;
+    width: 6vw;
+  }
+  .cooperative-info h4{
+    font-size: 0.85rem;
+  }
+}
+
+@media (width <= 768px){
+  .navbar{
+    width: 100%;
+    padding-right: 0.75rem;
+  }
+  .home{
+    display: none;
+  }
+
+  .first_div{
+    font-size: 0.7rem;
+    padding: 5rem 1.5rem 1.5rem;
+  }
+  .first_div h1{
+    max-width: 34rem;
+    font-size: 2rem;
+  }
+  .first_div p{
+    margin-bottom: 1.5rem;
+  }
+  .first_div .bg-gradient{
+    width: 90%;
+  }
+  .first_div .bg-img{
+    width: 30rem;
+    background-position: center;
+  }
+  .search-container input{
+    width: 70%;
+  }
+  .second-div{
+    height: 11rem;
+  }
+  
+  .second-div h3,
+  .third-div h3{
+    padding-left: 1rem;
+  }
+  .second-div a{
+    margin-right: 1rem;
+  }
+  .second-services{
+    grid-template-columns: repeat(4, 23%);
+    gap: 1rem 0.75rem;
+    margin-left: 0;
+    padding: 0 1rem;
+    width: 100%;
+  }
+  .inc-sec-div-height{
+    height: 39rem;
+  }
+
+  .third-div{
+    height: auto;
+  }
+  
+  .gramin{
+    margin: 1rem 0rem;
+  }
+  .gramin-div{
+    /* height: 6.5rem; */
+    width: 48%;
+  }
+  .gramin-div img{
+    flex: 0 0 3rem;
+    width: 3rem;
+    height: 3rem;
+    margin-left: 0;
+  }
+  .cooperative-info{
+    min-width: 0;
+  }
+  .cooperative-info h4{
+    font-size: 0.8rem;
+  }
+  .cooperative-info p{
+    font-size: 0.7rem;
+  }
+  .rating{
+    width: 100%;
+    gap: 0.4rem;
+  }
+
+  .fourth-div{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 1rem;
+    width: auto;
+    height: auto;
+    margin: 1rem;
+    padding: 1rem;
+  }
+  .last-boxes{
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+  }
+
+  footer{
+    flex-direction: column;
+    padding: 0;
+    padding-bottom: 1.5em;
+  }
+  footer .social-media{
+    justify-content: center;
+    margin-top: 1.5rem;
+    gap: 3rem;
+    width: 80%;
+  }
+}
+
+@media (width <= 560px){
+  .navbar img{
+    height: 3rem;
+  }
+  .right{
+    gap: 0.875rem;
+    margin-right: 0;
+  }
+  .location{
+    gap: 0.35rem;
+    margin-left: 0;
+  }
+  .location span{
+    font-size: 0.7rem;
+  }
+
+  .first_div{
+    font-size: 0.5rem;
+    min-height: 19rem;
+    padding: 5rem 1rem 1.25rem;
+  }
+  .first_div h1{
+    max-width: 28rem;
+    font-size: 1.75rem;
+  }
+  .first_div p{
+    font-size: 0.7rem;
+  }
+  .first_div .bg-gradient{
+    background: linear-gradient(to right,
+      #080f1edd 0%,
+      #080f1ee3 35%,
+      #080f1e86 60%,
+      rgba(8, 15, 30, 0) 75%
+    ); 
+    width: 70%;
+  }
+  .first_div .bg-img{
+    width: 100%;
+  }
+  .search-container{
+    height: 2.75rem;
+  }
+  .search-container input{
+    font-size: 0.75rem;
+  }
+  .search-icon i{
+    padding: 0 0.75rem;
+  }
+
+  .second-div{
+    height: 10.5rem;
+  }
+  .second-div h3,
+  .third-div h3{
+    font-size: 1rem;
+  }
+  .second-div a{
+    font-size: 0.75rem;
+  }
+  .second-services{
+    grid-template-columns: repeat(3, 32%);
+    gap: 0.75rem;
+    padding: 0 0.75rem;
+  }
+  .inc-sec-div-height{
+    height: 35rem;
+  }
+  .service-cards{
+    height: 7.5rem;
+    padding: 0.5rem;
+  }
+  .service-cards i{
+    margin-top: 0.5rem;
+  }
+
+  .gramin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 0.75rem 1rem 0;
+  }
+  .gramin-div,
+  .gramin-div:last-child{
+    width: 100%;
+    display: flex;
+  }
+
+  .gramin-div img{
+    height: 4rem;
+    width: 4rem;
+  }
+  .cooperative-info h4{
+    font-size: 0.85rem;
+  }
+  .cooperative-info p{
+    font-size: 0.75rem;
+  }
+  .fourth-div{
+    gap: 0.75rem;
+    padding: 0.75rem;
+  }
+  .footer-content{
+    justify-content: center;
+  }
+  .link{
+    flex-basis: 100%;
+  }
+}
+
+@media (width <= 380px){
+  .navbar{
+    padding: 0 0.5rem;
+  }
+  .navbar img{
+    height: 2.25rem;
+  }
+  .home{
+    gap: 0.5rem;
+  }
+  .navbar a{
+    font-size: 0.65rem;
+  }
+  .right{
+    gap: 0.5rem;
+  }
+  .location span{
+    display: none;
+  }
+  .first_div{
+    padding-top: 2rem;
+    height: 12rem;
+    min-height: 15rem;
+    font-size: 0.45rem;
+  }
+  .first_div .bg-img{
+    height: 100%;
+  }
+  .first_div h1{
+    font-size: 1.5rem;
+  }
+  .search-container input{
+    font-size: 0.65rem;
+  }
+  .second-div h3,
+  .third-div h3{
+    font-size: 0.9rem;
+  }
+  .second-div a{
+    font-size: 0.65rem;
+    margin-right: 0.75rem;
+  }
+  .fourth-div{
+    grid-template-columns: 1fr;
+  }
+}
